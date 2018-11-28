@@ -1,0 +1,78 @@
+.header {
+  background-color: black;
+  height: 90vh;
+  padding: 10%;
+  color: white;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.header-text {
+  margin: 1em 0 0.2em 0;
+  max-width: 80%;
+}
+.header-title {
+  font-size: 2em;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+.header-subtitle {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  margin: 5% 0 15% 0;
+  color: white;
+}
+.header-learnmore {
+  margin-top: 8%;
+  margin-bottom: 5%;
+  display: inline-block;
+  opacity: 0.7;
+
+  cursor: pointer;
+  cursor: hand;
+}
+.chevron-down {
+  color: white;
+}
+.color-white {
+  color: white;
+}
+
+@media (min-width: 375px) {
+  .header-title {
+    font-size: 2.5em;
+  }
+  .header-subtitle {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 650px) {
+  .header-title {
+    font-size: 3.2em;
+  }
+  .header-subtitle {
+    font-size: 1.9em;
+  }
+  .header-learnmore {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 950px) {
+  .header-title {
+    font-size: 3.2em;
+  }
+  .header-subtitle {
+    font-size: 1.9em;
+    margin: 2% 0 6% 0;
+  }
+  .header-learnmore {
+    font-size: 1.2em;
+  }
+}

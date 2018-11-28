@@ -1,0 +1,19 @@
+.section-header {
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
+  display: inline-block;
+  padding: 0.2em;
+  border-bottom: 3px solid white;
+}
+
+.white {
+  color: white;
+}
+
+.blue-underline {
+  border-bottom: 3px solid rgba(85, 202, 249, 1);
+}
+
+.pink-underline {
+  border-bottom: 3px solid #4666ff;
+}

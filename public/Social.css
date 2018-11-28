@@ -1,0 +1,39 @@
+.social-links {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.social-link {
+  font-size: 1.8em;
+  margin: 0 0.5em 0em 0.5em;
+}
+.icon-black {
+  color: black;
+}
+
+.icon-black:hover {
+  color: white;
+}
+
+.icon-white {
+  color: white;
+}
+
+.icon-white:hover {
+  color: #4666ff;
+}
+
+@media (min-width: 375px) {
+  .social-link {
+    font-size: 2.2em;
+  }
+}
+
+@media (min-width: 650px) {
+  .social-link {
+    font-size: 2.5em;
+  }
+}

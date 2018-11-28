@@ -1,0 +1,31 @@
+.about-section {
+  background: #9b42f4;
+  padding: 5vh;
+  color: #404040;
+}
+p {
+  font-weight: bold;
+}
+.round-border {
+  border-radius: 25%;
+}
+.profile-pic {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.about-summary {
+  text-align: left;
+  line-height: 1.5em;
+  max-width: 750px;
+  margin: 0 auto;
+}
+.about-summary a {
+  color: #4cb6df;
+  font-weight: bold;
+}
+@media (min-width: 650px) {
+  .project-card {
+    width: 40%;
+  }
+}
